@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TraductorPage {
     WebDriver driver;
-    By fieldTranslate = By.xpath("//div");
-    By result = By.xpath("*//span/span/span");
+    By fieldTranslate = By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[1]/span/span/div/textarea");
+    By result = By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[2]/div[5]/div/div[1]/span[1]/span/span");
 
     public TraductorPage(WebDriver driver) {
         this.driver = driver;

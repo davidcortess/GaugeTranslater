@@ -3,6 +3,7 @@ import Traductor.TraductorPage;
 import com.thoughtworks.gauge.*;
 import org.openqa.selenium.WebDriver;
 
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -34,12 +35,12 @@ public class StepImplementation {
         Gauge.captureScreenshot();
     }
 
-    @Step("See hola <wortExpected> as the translated word")
-    public void implementation4(String wortExpected) {
+    @Step("See hola <wordExpected> as the translated word")
+    public void implementation4(String wordExpected) {
         TraductorPage traductorPage = new TraductorPage(driver);
         String result = traductorPage.translatedWord();
         Gauge.captureScreenshot();
-        assertEquals("text", result);
+        assertEquals(wordExpected, result);
     }
     
 }

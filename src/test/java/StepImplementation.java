@@ -28,14 +28,14 @@ public class StepImplementation {
         Gauge.captureScreenshot();
     }
 
-    @Step("Enter hello <hello> in the field to translate")
+    @Step("Enter <hello> in the field to translate")
     public void implementation2(String word){
         TraductorPage traductorPage = new TraductorPage(driver);
         traductorPage.writeWord(word);
         Gauge.captureScreenshot();
     }
 
-    @Step("See hola <wordExpected> as the translated word")
+    @Step("See <wordExpected> as the translated word")
     public void implementation4(String wordExpected) {
         TraductorPage traductorPage = new TraductorPage(driver);
         String result = traductorPage.translatedWord();

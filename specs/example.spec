@@ -3,11 +3,11 @@
 ## translate word
 
 * Navigate to "https://translate.google.com/?hl=es"
-* Enter hello "hello" in the field to translate
-* See hola "Hola" as the translated word
+* Enter "hello" in the field to translate
+* See "Hola" as the translated word
 
-## translate word
+## translate word 2
 
 * Navigate to "https://translate.google.com/?hl=es"
-* Enter hello "hello" in the field to translate
-* See hola "Hola" as the translated word
+* Enter "house" in the field to translate
+* See "casa" as the translated word
